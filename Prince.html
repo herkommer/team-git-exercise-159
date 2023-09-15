@@ -10,6 +10,14 @@
     <div>
         <h1>Prince Laurel</h1>
         <p>Jag gillar att spela comp spel.</p>
+        <p id="demo">Click display date</p>
+        <button onclick="displayDate()">The Time is?</button>
+
+        <script>
+            function displayDate(){
+                document.getElementById("demo").innerHTML = Date();
+            }
+        </script>
     </div>
 </body>
 </html>
