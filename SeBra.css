@@ -7,3 +7,17 @@
     border: 2px solid blue;
     background-color: cadetblue;
 }
+
+.Elmer, .Elmer a{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #0D0208;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #00FF41;
+}  
+.Elmer #back{
+    text-align: left;
+    margin-left: 50px;
+}
